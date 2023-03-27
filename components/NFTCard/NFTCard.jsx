@@ -26,8 +26,8 @@ const NFTCard = () => {
             <Image
               src={images.nft_image_1}
               alt="NFTimage"
-              width={600}
-              height={600}
+              width={400}
+              height={400}
               className={Style.nftcard_box_img_img}
             />
           </div>
@@ -36,8 +36,7 @@ const NFTCard = () => {
             <div className={Style.nftcard_box_update_left}>
               <div
                 className={Style.nftcard_box_update_left_like}
-                onClick={() => likeNFT()}
-              >
+                onClick={() => likeNFT()}>
                 {like ? (
                   <AiOutlineHeart />
                 ) : (
