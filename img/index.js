@@ -39,16 +39,52 @@ import getAble from "./getable.png";
 import nft_image_1 from "./nft-image-1.png";
 import nft_image_2 from "./nft-image-2.png";
 import nft_image_3 from "./nft-image-3.png";
+import nft_image_4 from "./nft-image-4.jpeg";
+import nft_image_5 from "./nft-image-5.jpeg";
+import nft_image_6 from "./nft-image-6.jpeg";
+import nft_image_7 from "./nft-image-7.jpeg";
+import nft_image_8 from "./nft-image-8.jpeg";
+import nft_image_9 from "./nft-image-9.jpeg";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
+import earn from "./earn.png";
+import nftvideo from "./nftvideo.png";
+import upload from "./upload.png";
+import provider_1 from "./provider_1.png";
+import provider_2 from "./provider_2.png";
+import provider_3 from "./provider_3.png";
+import provider_4 from "./provider_4.jpeg";
+import founder_1 from "./founder1.jpg";
+import founder_2 from "./founder2.jpg";
+import founder_3 from "./founder3.jpg";
+import founder_4 from "./founder4.jpg";
+import hero_2 from "./hero2.png";
 
 export default {
+  hero_2,
+  founder_1,
+  founder_2,
+  founder_3,
+  founder_4,
+  provider_1,
+  provider_2,
+  provider_3,
+  provider_4,
+  upload,
+  earn,
   collection,
   update,
   musiceWave,
   nft_image_1,
   nft_image_2,
   nft_image_3,
+  nft_image_4,
+  nft_image_5,
+  nft_image_6,
+  nft_image_7,
+  nft_image_8,
+  nft_image_9,
+  nftvideo,
   getAble,
   nft_1,
   hero,

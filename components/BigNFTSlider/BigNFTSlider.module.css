@@ -108,6 +108,7 @@
      gap: 4rem;
      padding-block: 2rem 0rem;
      font-size: 4rem;
+     margin-top: -1rem;
  }
 
  .bigNFTSlider_box_left_sliderbtn {
@@ -115,7 +116,7 @@
     align-items: center;
     gap: 2rem;
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
  }
 
  .bigNFTSlider_box_left_sliderbtn_icon {
@@ -136,7 +137,7 @@
     padding: 1rem;
     background-color: var(--main-bg-color);
     border-radius: 2.5rem;
-    box-shadow: var(--main-bg-color);
+    box-shadow: var(--box-shadow-2);
 }
 
 .bigNFTSlider_box_right_box {
@@ -144,8 +145,9 @@
 }
 
 .bigNFTSlider_box_right_box_img {
-    width: 700px;
-    height: 800px;
+    width: 100%;
+    height: 600px;
+    
     border-radius: 2rem;
     /* margin-bottom: 50rem; */
 }
@@ -178,16 +180,17 @@
     }
 
     .bigNFTSlider_box_right {
-        margin-top: -40rem;
+        margin-top: -50rem;
     }
 
     .bigNFTSlider_box_left_creator {
         gap: 1rem;
-        grid-template-columns: 1.2fr 1fr;
+        grid-template-columns: 1.8fr 1fr;
     }
 
     .bigNFTSlider_box_left_creator_profile_info {
         font-size: .8rem;
+        line-height: 1;
     }
 
     .bigNFTSlider_box_left_creator_collection_icon {
@@ -196,7 +199,6 @@
 
     .bigNFTSlider_box_left_creator_collection_info {
         font-size: .8rem;
-        line-height: 1;
     }
 
     .bigNFTSlider_box_left_bidding_box_timer {

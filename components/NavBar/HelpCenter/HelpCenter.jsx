@@ -7,23 +7,23 @@ import Style from './HelpCenter.module.css';
 // HELP CENTER NAVIGATION MENU
 const helpCenter = [
   {
-    name: "About",
+    name: "About Us",
     link: "about"
   },
 
   {
     name: "Contact Us",
-    link: "contactk-us"
+    link: "contactus"
   },
 
   {
     name: "Sign Up",
-    link: "sign-up"
+    link: "signup"
   },
 
    {
     name: "Sign In",
-    link: "sign-in"
+    link: "signin"
   },
 
    {
@@ -37,7 +37,9 @@ const HelpCenter = () => {
     <div className={Style.box}>
       {
         helpCenter.map((el, i)=> (
-          <div className={Style.helpCenter}> <Link href={{pathname: '${el.link}'}}>{el.name}</Link> </div>
+          <div className={Style.helpCenter}> 
+            <Link href={{pathname: `${el.link}`}}>{el.name}</Link> 
+          </div>
         ))
       }
     </div>

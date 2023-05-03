@@ -1,5 +1,5 @@
 .box_category {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -24,6 +24,8 @@
 }
 
 .category_box_img {
+    width: 100%;
+    height: 70px;
     border-radius: 1rem;
 }
 

@@ -10,10 +10,20 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@openzeppelin/contracts": "^4.8.3",
+    "ether": "^0.0.9",
+    "framer-motion": "^10.10.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.3",
     "react-icons": "^4.7.1",
-    "react-object-fit-cover": "^1.0.0"
+    "react-object-fit-cover": "^1.0.0",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@types/react": "^18.0.38",
+    "hardhat": "^2.14.0"
   }
 }

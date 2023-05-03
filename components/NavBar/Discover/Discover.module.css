@@ -8,4 +8,5 @@
     background-color: var(--icons-color);
     color: var(--shadow-dark-color);
     border-radius: .3rem;
+    padding: .1rem .1rem;
 }
